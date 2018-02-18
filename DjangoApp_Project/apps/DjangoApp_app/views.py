@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 from django.shortcuts import render, HttpResponse, redirect 
 
 def index(request):
-	response = "This is my first response"
+	response = "placeholder to display a list of all blogs"
 	return HttpResponse(response)
 
 def new(request):
-	response = "This is the new page"
+	response = "This is a placeholder to display a new form to create a new blog"
 	return HttpResponse(response)
 
 def create(request):
